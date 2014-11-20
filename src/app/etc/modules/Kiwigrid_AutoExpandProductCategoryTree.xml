@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kiwigrid_AutoExpandProductCategoryTree>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Kiwigrid_AutoExpandProductCategoryTree>
+    </modules>
+</config>

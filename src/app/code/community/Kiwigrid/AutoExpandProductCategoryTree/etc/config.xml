@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kiwigrid_AutoExpandProductCategoryTree>
+            <version>1.0.0</version>
+        </Kiwigrid_AutoExpandProductCategoryTree>
+    </modules>
+    <global>
+        <blocks>
+            <kiwigrid_autoexpandproductcategorytree>
+                <class>Kiwigrid_AutoExpandProductCategoryTree_Block</class>
+            </kiwigrid_autoexpandproductcategorytree>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_edit_tab_categories>Kiwigrid_AutoExpandProductCategoryTree_Block_Catalog_Product_Edit_Tab_Categories</catalog_product_edit_tab_categories>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>
